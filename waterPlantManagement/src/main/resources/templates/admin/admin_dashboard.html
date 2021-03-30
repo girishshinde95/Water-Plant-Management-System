@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="/admin/base::Layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Page</title>
+</head>
+<body>
+	<section>
+	<div id="jumbo3" class="jumbotron text-center text-white">
+	<h1>WELCOME GIRISH </h1>
+	<h4> ADMIN DASHBOARD</h4>
+	</div>
+	
+	 <div class="row" id="dash">
+       <div id="col1" class="col-sm-4 text-center" >
+           
+	     <a th:href="@{/admin/mproducts}" href="#" class="btn btn-success">Manage Product</a>
+	     
+	     <h5 style="font-style: italic;">Add</h5>
+	    <h5 style="font-style: italic;">Update</h5>
+	    <h5 style="font-style: italic;">Delete</h5>
+	    <h5 style="font-style: italic;">Products</h5>
+	    <h5 style="font-style: italic;">Here</h5>
+	     
+	    </div>
+	 
+	  <div id="col3" class="col-sm-4 text-center"> 
+	     <a th:href="@{/admin/manageUser}" href="#"  class="btn btn-success"  >Manage Customers</a>
+	   
+	     <h5 style="font-style: italic;">Add</h5>
+	    <h5 style="font-style: italic;">Update</h5>
+	    <h5 style="font-style: italic;">Delete</h5>
+	    <h5 style="font-style: italic;">Customer</h5>
+	    <h5 style="font-style: italic;">Here</h5>
+	    </div>
+	
+       <div id="col2" class="col-sm-4 text-center" > 
+	     <a th:href="@{/admin/myorders}" href="#" class="btn btn-success" >Manage Orders</a>
+	      
+	     <h5 style="font-style: italic;">Add</h5>
+	    <h5 style="font-style: italic;">Update</h5>
+	    <h5 style="font-style: italic;">Delete</h5>
+	    <h5 style="font-style: italic;">Orders</h5>
+	    <h5 style="font-style: italic;">Here</h5>
+	    </div>
+	    
+	   
+	    
+	 </div>
+	</section>
+</body>
+</html>

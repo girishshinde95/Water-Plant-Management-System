@@ -1,0 +1,129 @@
+@charset "ISO-8859-1";
+body{
+	margin:60px;
+	/*background:url("../images/plant4.jpg");
+	background-size:cover;*/
+	color:black;
+}
+
+.bg-primary{
+	background-image: linear-gradient( #04619f, #04619f);
+	margin: 5px 0;
+	 
+}
+
+/* Add padding to containers */
+.my-card{
+	padding:20px;
+}
+
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.banner #home-appilication{
+	
+	padding: 20px;
+}
+.banner #jumbo{
+	margin-top: 70px;
+	background:url("../images/jombo1.jpg") ;
+	background-size:cover;
+	background-position: center center;
+	position: relative
+	
+}
+#jumbo2{
+	margin-top: 70px;
+	
+	background:url("../images/about1.jpg");
+	background-position: center center;
+	position: relative;
+	background-size:cover;
+}
+
+#jumbo3{
+	 background-image: linear-gradient( #3B4371,  #66a6ff);
+	
+}
+
+
+/* Login Page CSS*/
+
+#login .container #userlogin #login-column {
+  margin-top: 90px;
+  max-width: 500px;
+  height: 450px;
+  	
+  box-shadow: 0 0 15px 9px #00000096;
+  overflow: hidden;
+}
+
+#login .container #userlogin #login-column .button-box{
+	margin-top: 100px;
+	width:220px;
+	margin: 25px auto;
+	position:relative;
+	box-shadow:0 0 20px 9px #ff61241f;
+	border-radius:30px;
+}
+
+
+#login .container #userlogin #login-column #login-box #login-form #register-link {
+  margin-top: -70px;
+  
+}
+
+#login .container #userlogin #login-column #login-form #submitbtn {
+  font-weight: 500;
+    width: 40%;
+    color: #282726;
+    background-color: #808040;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+
+#login .container #userlogin #login-column #login-box #login-form {
+	margin-top: 90px;
+  padding: 10px;
+	
+}
+#login .container #userlogin #login-column #login-box #login-admin{
+	 margin-top: 50px;
+	padding: 10px;
+	
+}
+
+/* Product Page CSS*/
+#product{
+	margin-top: 80px;
+}
+#product #row1{
+	padding: 10px;
+}
+
+#product #row2{
+	padding: 10px;
+}
+
+/* Dash BOard Page CSS*/
+#dash #col1{
+	
+	 background-image: linear-gradient(to right, #93A5CF , #E4EfE9)
+	
+ 
+}
+
+#dash #col2{
+	 background-image: linear-gradient(to right, #FCB69F , #FFECD2)
+}
+
+#dash #col3{
+	 background-image: linear-gradient(to right, #13547a , #80d0c7)
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="/user/base::Layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>User Page</title>
+</head>
+<body>
+	<section>
+	<div id="jumbo3" class="jumbotron text-center text-white">
+	<h1>Welcome <span th:text="${user.userName}"></span></h1>
+	
+	<h5>User id: <span th:text="${user.userId}"></span> </h5>
+	</div>
+	<h3>Your Private Dash_board</h3>
+	
+	<div class="row" id="dash">
+		
+		<div id="col2" class="col-sm-4 text-center " > 
+	     <a th:href="@{/user/profile}" href="#" class="btn btn-success" >Manage Profile</a>
+	      <h5 style="font-style: italic;">Profile Content</h5>
+	    <h5 style="font-style: italic;">Update</h5>
+	    <h5 style="font-style: italic;">Delete</h5>
+	    <h5 style="font-style: italic;">password</h5>
+	    <h5 style="font-style: italic;">Here</h5>
+		</div>
+		
+       <div id="col1" class="col-sm-4 text-center"  > 
+	    <a  href="#" class="btn btn-success" >Manage Orders</a>
+	      <h5 style="font-style: italic;">Add</h5>
+	    <h5 style="font-style: italic;">Update</h5>
+	    <h5 style="font-style: italic;">Delete</h5>
+	    <h5 style="font-style: italic;">Orders</h5>
+	    <h5 style="font-style: italic;">Here</h5>
+	    </div>
+	 
+	
+       
+	    
+	    <div id="col3" class="col-sm-4 text-center " > 
+	     <a  href="#" class="btn btn-success" >Manage Usage and Bill</a>
+	      <h5 style="font-style: italic;">Check</h5>
+	    <h5 style="font-style: italic;">Update</h5>
+	    <h5 style="font-style: italic;">Delete</h5>
+	    <h5 style="font-style: italic;">Bill</h5>
+	    <h5 style="font-style: italic;">Here</h5>
+	    </div>
+	    
+	 </div>
+	</section>
+</body>
+</html>
